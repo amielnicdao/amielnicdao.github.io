@@ -1,7 +1,7 @@
 .jumbotron {
     background-image: url("../images/cover-photo.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 75vh;
     opacity: .8;
   }
 
