@@ -1,8 +1,8 @@
 .jumbotron {
-    background-image: url("../images/cover-photo.jpg");
+    background-image: url("../images/home.jpg");
     background-size: cover;
-    height: 75vh;
-    opacity: .8;
+    height: 100vh;
+    color: white;
   }
 
 #jquery {
