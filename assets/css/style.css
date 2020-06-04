@@ -25,6 +25,20 @@
 h1,
 h4,
 .skill-icons,
-.about {
+.about,
+.skills-button {
   text-align: center;
+}
+
+.container {
+  margin: 50px 0;
+}
+
+.skill-icons {
+  margin: 25px 25px;
+}
+
+i,
+img {
+  margin-right: 15px;
 }
