@@ -35,10 +35,18 @@ h4,
 }
 
 .skill-icons {
-  margin: 25px 25px;
+  margin-top: 25px;
 }
 
 i,
 img {
   margin-right: 15px;
+}
+
+.skills-button {
+  margin: 25px 0;
+}
+
+.projects {
+  margin: 25px;
 }
