@@ -31,7 +31,7 @@ h4,
 }
 
 .container {
-  margin: 50px 0;
+  margin: 25px 0;
 }
 
 .skill-icons {
@@ -49,4 +49,36 @@ img {
 
 .projects {
   margin: 25px;
+}
+
+.project-card {
+  width: 392.8px;
+  height: 178px;
+}
+
+.form-row,
+.col {
+  margin-bottom: 18px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+ 
+}
+
+.footer-icons {
+  text-align: center;
+}
+
+form {
+  margin-top: 25px;
+}
+
+.blog {
+  margin-right: 5px;
+}
+
+.blog-div {
+  width: 1175px;
 }
