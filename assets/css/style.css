@@ -49,8 +49,12 @@ img {
 
 .projects {
   margin: 25px;
+  padding-left: 50px;
+  width: 1500px;
+  align-self: center;
+  
+  
 }
-
 .project-card {
   width: 392.8px;
   height: 178px;
@@ -82,3 +86,9 @@ form {
 .blog-div {
   width: 1175px;
 }
+
+/* .project-div {
+  margin: 5px;
+  
+} */
+
