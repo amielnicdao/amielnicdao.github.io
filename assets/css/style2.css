@@ -1,0 +1,101 @@
+.jumbotron {
+    background-image: url("../images/home.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+  }
+
+#jquery {
+  margin-bottom: 18px;
+}
+
+#greensock, 
+#express {
+  height: 32px;
+  width: 32px;
+  margin-bottom: 16px;
+}
+
+#firebase {
+  height: 32px;
+  width: 24px;
+  margin-bottom: 16px;
+}
+
+h1,
+h4,
+.skill-icons,
+.about,
+.skills-button {
+  text-align: center;
+}
+
+.container {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.skill-icons {
+  margin-top: 25px;
+}
+
+i,
+img {
+  margin-right: 15px;
+}
+
+.skills-button {
+  margin: 25px 0;
+}
+
+.projects {
+  margin: 25px;
+  padding-left: 50px;
+  width: 1500px;
+  align-self: center;
+  
+  
+}
+.project-card {
+  width: 392.8px;
+  height: 178px;
+}
+
+.form-row,
+.col {
+  margin-bottom: 18px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+ 
+}
+
+.footer-icons {
+  text-align: center;
+}
+
+form {
+  margin-top: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+.blog {
+  margin-right: 5px;
+}
+
+.blog-div {
+  width: 1175px;
+}
+
+/* .project-div {
+  margin: 5px;
+  
+} */
+
+.submit {
+  float: right;
+}
