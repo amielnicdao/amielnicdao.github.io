@@ -1,0 +1,14 @@
+html {
+    background-color: #f8f9fa;
+}
+
+#hr {
+    margin: 0;
+}
+
+.jumbotron {
+    background-image: url("../images/home.jpg");
+    background-size: cover;
+    height: 75vh;
+    color: white;
+  }
