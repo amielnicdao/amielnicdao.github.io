@@ -11,4 +11,9 @@ html {
     background-size: cover;
     height: 75vh;
     color: white;
+    /* opacity: 0.8; */
+  }
+
+  .btn:hover {
+      background-color: #FFC000;
   }
