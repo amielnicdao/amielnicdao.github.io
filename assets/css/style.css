@@ -6,6 +6,8 @@ html {
     margin: 0;
 }
 
+/* MAIN */
+
 .jumbotron {
     background-image: url("../images/home.jpg");
     background-size: cover;
@@ -17,3 +19,24 @@ html {
   .btn:hover {
       background-color: #FFC000;
   }
+
+
+  /* ABOUT */
+
+.about-snippet {
+      float: left;
+  }
+
+#greensock, 
+#express {
+  height: 32px;
+  width: 32px;
+  margin-bottom: 16px;
+}
+
+#firebase {
+    height: 32px;
+    width: 24px;
+    margin-bottom: 16px;
+  }
+  
