@@ -23,10 +23,13 @@ html {
 
   /* ABOUT */
 
-.about-snippet {
-      float: left;
+  .profile {
+      margin-right: 75px;
   }
 
+.skills-icons {
+    text-align: center;
+}
 #greensock, 
 #express {
   height: 32px;
@@ -39,4 +42,5 @@ html {
     width: 24px;
     margin-bottom: 16px;
   }
+
   
