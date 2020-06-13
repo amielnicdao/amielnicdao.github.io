@@ -1,3 +1,5 @@
+/* BODY */
+
 html {
     background-color: #f8f9fa;
 }
@@ -14,22 +16,23 @@ html {
     height: 75vh;
     color: white;
     /* opacity: 0.8; */
-  }
+}
 
-  .btn:hover {
-      background-color: #FFC000;
-  }
+.btn:hover {
+    background-color: #FFC000;
+}
 
 
   /* ABOUT */
 
-  .profile {
-      margin-right: 75px;
-  }
+.profile {
+    margin-right: 75px;
+}
 
 .skills-icons {
     text-align: center;
 }
+
 #greensock, 
 #express {
   height: 32px;
@@ -41,6 +44,8 @@ html {
     height: 32px;
     width: 24px;
     margin-bottom: 16px;
-  }
+}
 
-  
+/* SERVICES */
+
+
