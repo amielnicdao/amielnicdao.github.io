@@ -47,5 +47,10 @@ html {
 }
 
 /* SERVICES */
-
-
+/* 
+.services {
+    
+} */
+.services-icons {
+    float: left;
+}
