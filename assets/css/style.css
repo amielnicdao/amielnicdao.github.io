@@ -47,10 +47,34 @@ html {
 }
 
 /* SERVICES */
-/* 
-.services {
-    
-} */
+
+.can-do {
+    margin: 25px;
+    text-align: center;
+}
 .services-icons {
     float: left;
+}
+
+.services {
+    margin-left: 400px;
+}
+
+.web-design,
+.web-app {
+    margin-right: 40px;
+}
+
+.design {
+    margin-left: 24px;
+}
+
+.app {
+    margin-left: 70px;
+    margin-bottom: 2px; 
+}
+
+.pm {
+    margin-left: 64px;
+    margin-bottom: 2px;
 }
