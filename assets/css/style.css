@@ -78,3 +78,15 @@ html {
     margin-left: 64px;
     margin-bottom: 2px;
 }
+
+/* PORTFOLIO */
+
+.portfolio {
+    clear: both;
+}
+
+.keychain,
+.admin {
+    width: 275px;
+    height: 165px;
+}
