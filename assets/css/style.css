@@ -1,7 +1,7 @@
 /* BODY */
 
-html {
-    background-color: #f8f9fa;
+body {
+    background-color: rgba(0, 0, 0, 0.08);
 }
 
 #hr {
@@ -48,7 +48,8 @@ html {
 
 /* SERVICES */
 
-.can-do {
+.can-do,
+.portfolio {
     margin: 25px;
     text-align: center;
 }
@@ -89,4 +90,9 @@ html {
 .admin {
     width: 275px;
     height: 165px;
+}
+
+.img-thumbnail {
+    border: 5px solid white;
+    
 }
