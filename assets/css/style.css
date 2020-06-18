@@ -97,4 +97,16 @@ body {
     
 } */
 
+.carousel {
+    transition: transform 2s ease;
+    opacity: .5s ease-out;
+    width: 800px;
+    height: 450px;
+    text-align: center;
+}
 
+.admin,
+.stock,
+.keychain {
+    height: 425px;
+}
