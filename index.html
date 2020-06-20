@@ -123,60 +123,93 @@
 
     <!-- PORTFOLIO -->
 
-    <h3 class="portfolio">Portfolio</h3>
+    <h3 class="portfolio">Featured Projects</h3>
 
-    <!-- <img src="./assets/images/market-summary.PNG" alt="..." class="img-thumbnail">
-
-    <img src="./assets/images/newAccount.PNG" alt="..." class="img-thumbnail keychain">
-
-    <img src="./assets/images/admin.PNG" alt="..." class="img-thumbnail admin"> -->
-
-    <!-- <div class="card" style="width: 18rem;">
-        <img src="./assets/images/market-summary.PNG" class="card-img-top stock" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="./assets/images/newAccount.PNG" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div> -->
-      <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" data-interval="2000">
-              <img src="./assets/images/market-summary.PNG" class="d-block mx-auto stock" alt="...">
-              <h5 class="card-title">stock.io</h5>
-        <p class="card-text">Application that shows real-time stock market summary, business headlines, and a company's
-          stock information.</p>
-          </div>
-          <div class="carousel-item" data-interval="2000">
-            <img src="./assets/images/newAccount.PNG" class="d-block mx-auto keychain" alt="...">
-            <h5 class="card-title">myKeychain</h5>
-            <p class="card-text">A full-featured CRUD application that stores users' usernames and passwords to different online accounts.</p>
-          </div>
-          <div class="carousel-item" data-interval="2000">
-            <img src="./assets/images/admin.PNG" class="d-block mx-auto admin" alt="...">
-            <h5 class="card-title">FitBMS</h5>
-            <p class="card-text">A business management software for gyms featuring three different applications for members and admins.</p>
-          </div>
+            <div class="carousel-item active" data-interval="5000">
+                <img src="./assets/images/market-summary.PNG" class="d-block mx-auto stock" alt="...">
+                <h5 class="card-title">stock.io</h5>
+                <p class="card-text">Application that shows real-time stock market summary, business headlines, and a
+                    company's
+                    stock information.</p>
+            </div>
+            <div class="carousel-item" data-interval="5000">
+                <img src="./assets/images/newAccount.PNG" class="d-block mx-auto keychain" alt="...">
+                <h5 class="card-title">myKeychain</h5>
+                <p class="card-text">A full-featured CRUD application that stores users' usernames and passwords to
+                    different online accounts.</p>
+            </div>
+            <div class="carousel-item" data-interval="5000">
+                <img src="./assets/images/admin.PNG" class="d-block mx-auto admin" alt="...">
+                <h5 class="card-title">FitBMS</h5>
+                <p class="card-text">A business management software for gyms featuring three different applications for
+                    members and admins.</p>
+            </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
-          </a>
-      </div>
-      
+        </a>
+    </div>
 
-  
+    <!-- CONTACT -->
 
-  
+    <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+
+
+
+
+
 
 
 </body>
@@ -191,4 +224,3 @@
 
 <!-- <a target="_blank" href="https://icons8.com/icons/set/google-code">Google Code icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
 
-<!-- look for stock image of trading -->
