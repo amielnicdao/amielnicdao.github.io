@@ -55,7 +55,8 @@ body {
 
 .can-do,
 .portfolio,
-.contact {
+.contact,
+.footer-headline {
     margin: 25px;
     text-align: center;
 }
@@ -172,3 +173,27 @@ body {
 
 }
 
+/* FOOTER */
+
+
+footer {
+    background: black;
+}
+
+.list-inline-item {
+    color: white;
+}
+
+.test:hover {
+    transition: .1s ease;
+    font-size: 25px;
+    
+}
+
+.jquery-icon {
+    font-size: 8px;
+}
+
+.footer-headline {
+    color: white
+}
