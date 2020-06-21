@@ -8,6 +8,12 @@ body {
     margin: 0;
 }
 
+/* NAVBAR */
+
+.btn:hover {
+    background-color: #FFC000;
+}
+
 /* MAIN */
 
 .jumbotron {
@@ -18,12 +24,11 @@ body {
     /* opacity: 0.8; */
 }
 
-.btn:hover {
-    background-color: #FFC000;
+.about-icon:hover {
+    transform: rotate(360deg);
+    transition: all 0.2s;
 }
-
-
-  /* ABOUT */
+/* ABOUT */
 
 .profile {
     margin-right: 75px;
