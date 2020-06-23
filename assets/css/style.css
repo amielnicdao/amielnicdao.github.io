@@ -19,7 +19,7 @@ body {
 .jumbotron {
     background-image: url("../images/home.jpg");
     background-size: cover;
-    height: 75vh;
+    height: 50vh;
     color: white;
     /* opacity: 0.8; */
 }
@@ -29,7 +29,7 @@ body {
     transition: all 0.2s;
 }
 
-.container {
+.about {
     text-align: center
 }
 /* ABOUT */
