@@ -55,6 +55,15 @@ body {
     margin-bottom: 16px;
 }
 
+.nutshell::after {
+    content: ".";
+    font-size: 40px;
+    /* position: relative; */
+    color: #FFC000;
+    padding-left: 3px;
+
+}
+
 /* SERVICES */
 
 .can-do,
