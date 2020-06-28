@@ -87,6 +87,21 @@ body {
 
 }
 
+.nutshell,
+.portfolio,
+.card-title,
+.chat,
+.footer-headline {
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    
+    letter-spacing: 1px;
+}
+
 /* SERVICES */
 
 .can-do,
