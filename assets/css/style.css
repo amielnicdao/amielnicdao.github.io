@@ -19,9 +19,18 @@ body {
 .jumbotron {
     background-image: url("../images/home.jpg");
     background-size: cover;
-    height: 50vh;
+    height: 93vh;
     color: white;
     /* opacity: 0.8; */
+}
+
+#counter-color {
+    color: black;
+}
+
+.counter,
+#menu {
+    opacity: 0.8;
 }
 
 .about-icon:hover {
@@ -29,8 +38,22 @@ body {
     transition: all 0.2s;
 }
 
+.about-icon {
+    align-self: center;
+}
+
 .about {
-    text-align: center
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: 2px;
+}
+
+.snippet {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+
 }
 /* ABOUT */
 
@@ -186,6 +209,10 @@ body {
 
 }
 
+.contact-icons {
+    color: #ffc000;
+}
+
 /* FOOTER */
 
 
@@ -209,4 +236,8 @@ footer {
 
 .footer-headline {
     color: white
+}
+
+.test {
+    color: white;
 }
