@@ -19,7 +19,7 @@ body {
 .jumbotron {
     background-image: url("../images/home.jpg");
     background-size: cover;
-    height: 93vh;
+    height: 90vh;
     color: white;
     /* opacity: 0.8; */
 }
